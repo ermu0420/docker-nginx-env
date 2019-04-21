@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  nginx-env:
+    image:  nginx-env:latest
+    ports:
+      - 8081:80
+    environment:
+      - CLUB_URL : http://ermu0420.club
